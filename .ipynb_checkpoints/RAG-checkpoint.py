@@ -76,7 +76,7 @@ class ZhipuEmbeddings(BaseEmbedding):
 embedding = ZhipuEmbeddings()
 
 # 设置持久化目录和向量存储
-persist_dir = "/mnt/workspace/article/index" 
+persist_dir = "/mnt/workspace/llamaindex_RAG_onlineLLM/index" 
 vector_store = FaissVectorStore.from_persist_dir(persist_dir)
 storage_context = StorageContext.from_defaults(vector_store=vector_store, persist_dir=persist_dir)
 index = load_index_from_storage(storage_context=storage_context, embed_model=embedding)
