@@ -26,8 +26,8 @@
 4. 用llamaindex串联知识库和大模型
 5. 用streamlit创建前端应用
 #### 其他待解决问题
-1. 向量数据库
-2. RAG的评估
-3. 工具的调用
-4. 长期记忆
+1. (向量数据库)[https://qdrant.tech/]
+2. (RAG的评估) [https://github.com/explodinggradients/ragas]
+3. (工具的调用)[https://www.aidoczh.com/llamaindex/module_guides/deploying/agents/tools/]
+4. (长期记忆)[https://github.com/mem0ai/mem0]
 
