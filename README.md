@@ -7,6 +7,7 @@
    b. export MY_VAR="my_value" (直接在终端运行，只对当前终端生效)
    c. 在 ~/.bashrc下配置（启动服务器即生效）
 2. 安装依赖项
+```
   pip install Streamlit
   pip install faiss-cpu scikit-learn scipy 
   pip install openai
@@ -15,8 +16,9 @@
   pip install llama-index-readers-file 
   pip install llama-index-vector-stores-faiss 
   pip install llamaindex-py-client
-3. 启动
-  streamlit run RAG.py
+```
+4. 启动
+`streamlit run RAG.py`
 ### 工作流程（大纲）
 1. 爬取公众号的文章，作为RAG知识库
 2. 用data-juicer对数据进行一次简单清洗
